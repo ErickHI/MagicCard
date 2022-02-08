@@ -12,7 +12,7 @@
 
 body {
   min-height: 100vh;
-  background: #212534;
+  background: #0A3E05;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ body {
 
 
 .card {
-  background: #191c29;
+  background: #051F02;
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -34,13 +34,13 @@ body {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(39 250 18 / 0%);
   cursor: pointer;
   font-family: cursive;
 }
 
 .card:hover {
-  color: rgb(88 199 250 / 100%);
+  color: rgb(39 250 18 / 100%);
   transition: color 1s;
 }
 .card:hover:before, .card:hover:after {
@@ -56,7 +56,7 @@ body {
   border-radius: 8px;
   background-image: linear-gradient(
     var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
+    , #27FA12, #12FA71 43%, #12FAE5);
     position: absolute;
     z-index: -1;
     top: -1%;
@@ -78,7 +78,7 @@ body {
   filter: blur(calc(var(--card-height) / 6));
   background-image: linear-gradient(
     var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
+    , #27FA12, #12FA71 43%, #12FAE5);
     opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
@@ -94,7 +94,7 @@ body {
 }
 
 a {
-  color: #212534;
+  color: #0A3E05;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
